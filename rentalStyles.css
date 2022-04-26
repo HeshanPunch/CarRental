@@ -1,0 +1,163 @@
+select{
+    width: 100%;
+}
+
+.wrapper{
+    width: 80%;
+    margin:50px auto 50px auto;
+    display: flex;
+    gap: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgba(233, 196, 106,0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#rentalDuration{
+    width: 40px;
+}
+
+.search-client{
+    width: 33vw;
+}
+
+.select-rental{
+    width: 33vw;
+}
+
+h3{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+em{
+    border-top: 2px solid #264653;
+    font-weight: bolder;
+}
+
+select, input{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    height: 6rem;
+    align-items:center;
+    justify-content: center;
+    background-color:#264653 ;
+    
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    color: #e9c46a;
+    
+}
+
+.output{
+    height: 100%;
+    margin: auto;
+    width: 33vw;
+}
+
+body{
+    margin: 0;
+    background-image: url(res/diego-jimenez-A-NVHPka9Rk-unsplash.jpg);
+    
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    
+}
+
+.logo {
+    
+    max-height: 60%;
+    width: auto;
+    margin-right: 2rem;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    height: 6rem;
+    align-items:center;
+    justify-content: center;
+    background-color:#264653 ;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    color: #e9c46a;
+}
+.link{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    color: #e9c46a;
+    background-color: #2a9d8f;
+    width: 450px;
+    margin: 20px auto auto auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+a:link { 
+    color: #e9c46a;
+}
+
+a:visited{ 
+    color: #e9c46a;
+} 
+
+
+a:hover { 
+    color: #E76F51; 
+} 
+
+
+a:active { 
+    color: #E9C46A; 
+}  
+
+button{ 
+    width: 200px; 
+    height:40px;; 
+    background-color:#264653; 
+    font-weight: 400; 
+    border-radius: 10px; 
+    color: #E9C46A; 
+    margin: 10px; 
+    transition: all 0.5s ease 0s; 
+    cursor: pointer;  
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+} 
+
+button:hover{ 
+    background-color:#264653; 
+    transform:translateX(12px);
+} 
+
+
+
+
+button:focus{ 
+    background-color:#E9C46A; 
+    box-shadow: 15px 10px; 
+    box-shadow: 5px 5px 25px #E9C46A; 
+} 
+
+
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+
+references
+https://unsplash.com/photos/A5rCN8626Ck
+*/
